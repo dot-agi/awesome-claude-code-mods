@@ -76,3 +76,7 @@ Ashley-Pettit/villager-hp
 Ashley-Pettit/lgtm-flash
 hellosverre/smart-compact
 vihrea1337/headroom
+dot-agi/arrester
+dot-agi/downrange
+dot-agi/sandbox-tuner
+dot-agi/high-command

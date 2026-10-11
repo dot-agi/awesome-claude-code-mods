@@ -130,6 +130,8 @@ Read the mod's source and access details before installing. Validation checks th
 - [modwall](https://github.com/RadTech-Solutions/modwall) - Reads each mod's scanned footprint as it loads, labels its reach and risk, and audits, holds or refuses it by an audit, ask or allowlist policy with a blocklist.
 - [p3c-guard](https://github.com/alexlifexyz/p3c-guard) - Refuses a Write or Edit to a Java file when it would add a violation of the Alibaba Java Coding Guidelines (p3c), and hands the rule, line and fix back to Claude; checks locally with PMD and downloads its rule jar from Maven Central on first use.
 - [claude-risk-guardrails](https://github.com/scaso01/claude-risk-guardrails) - Twenty-five model-risk controls in six packs that require human sign-off before irreversible actions, check the agent's claims against its sources, and keep a record of every step.
+- [arrester](https://github.com/dot-agi/arrester) - After a hook, a deny rule or auto mode blocks a tool call, stops recognized detours to the same target through another tool or a shell rewrite, such as `head` after a blocked `cat`, and tells Claude to stop and ask you, with no network, model or process calls.
+- [sandbox-tuner](https://github.com/dot-agi/sandbox-tuner) - Explains the sandbox blocks it recognizes in Bash results in plain words above the prompt, counts blocked hosts and write folders across sessions, and once a target recurs offers one reviewed settings entry with Undo, writing your user settings file (`~/.claude/settings.json` by default) and a backup only when you press, with no network or process calls.
 
 ## Memory and context
 
@@ -184,6 +186,8 @@ Read the mod's source and access details before installing. Validation checks th
 - [mission-control](https://github.com/hamzafer/claude-code-mods/tree/main/mods/mission-control) - A pane with every subagent and tool call live, plus a code map of the files they read and write, with a Haiku call that describes each file's changes.
 - [agent-pager](https://github.com/RadTech-Solutions/agent-pager) - Pages your phone through ntfy or your own Telegram bot when a long turn ends, a question or permission prompt waits, or a turn errors, and queues your Telegram replies as prompts in the one session you pick with `/pager listen`.
 - [session-board](https://github.com/danilpavlov/telescope-claude-code) - A floating tmux popup with an fzf picker of every Claude Code session running on the machine, showing which ones wait for you, a Haiku summary of each, and a jump to the tmux window of the one you pick.
+- [downrange](https://github.com/dot-agi/downrange) - Progress and an ETA for background shells and Monitor watches, read from their output or past run times, beside subagents, workflow runs and the pending dynamic `/loop` wakeup, in a band, a pane and a `/downrange` table that prints mid-turn, with no model calls or network and `tail` run only for outputs over 4 MiB.
+- [high-command](https://github.com/dot-agi/high-command) - One inbox for messages from agent-team teammates, named subagents and your other Claude Code sessions, grouped by peer in a pane, a band and `/highcommand`, with unread counts, sender labels, marks on suspicious wording and the reported result of each plain-text send, kept in session memory with no network, file, process or model calls.
 
 ## Building mods
 
